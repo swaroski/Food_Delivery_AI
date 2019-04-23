@@ -142,8 +142,8 @@ AUTHENTICATION_BACKENDS = (
    'django.contrib.auth.backends.ModelBackend',
 )
 
-SOCIAL_AUTH_FACEBOOK_KEY = '2036645649727320'
-SOCIAL_AUTH_FACEBOOK_SECRET = '2c4dc8935a62e4a743ba71fa4ff270ee'
+SOCIAL_AUTH_FACEBOOK_KEY = '2036xxxxxxxxxxxx'
+SOCIAL_AUTH_FACEBOOK_SECRET = '2c4dc8xxxxxxxxxxxxxxxxx'
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from facebook. Email is not sent by default, to get it, you must request the email permission:
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
@@ -164,4 +164,4 @@ SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.user.user_details',
 )
 
-STRIPE_API_KEY = 'sk_test_imgzeuqZM8HoPl2dxUAhgYlT'
+STRIPE_API_KEY = 'sk_test_xxxxxxxxxxxxxx'
